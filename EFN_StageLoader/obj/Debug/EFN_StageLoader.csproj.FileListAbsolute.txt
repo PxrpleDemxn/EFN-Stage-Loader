@@ -1,0 +1,15 @@
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\bin\Debug\EFN_StageLoader.exe.config
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\bin\Debug\EFN_StageLoader.exe
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\bin\Debug\EFN_StageLoader.pdb
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader.csproj.AssemblyReference.cache
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\App.g.cs
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader_MarkupCompile.cache
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader_MarkupCompile.lref
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader.g.resources
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader.Properties.Resources.resources
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader.csproj.GenerateResource.cache
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader.csproj.CoreCompileInputs.cache
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader.exe
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\EFN_StageLoader.pdb
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\StageLoader.g.cs
+D:\VS_repos\EFN_StageLoader\EFN_StageLoader\obj\Debug\StageLoader.baml

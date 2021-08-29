@@ -1,0 +1,27 @@
+﻿<Window x:Class="EFN_StageLoader.StageLoader"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EFN_StageLoader"
+        mc:Ignorable="d"
+        Title="Escape From Naraka - Stage Loader" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Image Source="img/bg_naraka.jpg" Stretch="Fill"/>
+        <Button Name="btn_st1" Content="Stage 1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st1_Click"/>
+        <Button Name="btn_st2" Content="Stage 2" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st2_Click"/>
+        <Button Name="btn_st3" Content="Stage 3" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st3_Click"/>
+        <Button Name="btn_st4" Content="Stage 4" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st4_Click"/>
+        <Button Name="btn_st5" Content="Stage 5" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st5_Click"/>
+        <Button Name="btn_st6" Content="Stage 6" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st6_Click"/>
+        <Button Name="btn_st7" Content="Stage 7" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st7_Click"/>
+        <Button Name="btn_st8" Content="Stage 8" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st8_Click"/>
+        <Label Name="lbl_desc" Content="Stage Loader" HorizontalAlignment="Left" Margin="519,-6,0,0" VerticalAlignment="Top" Foreground="White" FontSize="48" FontFamily="Impact" BorderThickness="0"/>
+        <Label Name="lbl_author" Content="by polluxik" HorizontalAlignment="Left" Margin="703,49,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0"/>
+        <Label Name="lbl_ver" Content="version-1.0" HorizontalAlignment="Left" Margin="519,49,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0"/>
+        <Label Name="lbl_pos" Content="X = ? | Y = ? | Z = ?" HorizontalAlignment="Left" Margin="519,84,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" FontFamily="Impact" BorderThickness="0" Width="265" Height="41" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+
+    </Grid>
+</Window>
