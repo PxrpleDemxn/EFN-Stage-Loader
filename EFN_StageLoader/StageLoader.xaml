@@ -19,8 +19,12 @@
         <Button Name="btn_st8" Content="Stage 8" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="150" Height="25" Click="btn_st8_Click"/>
         <Label Name="lbl_desc" Content="Stage Loader" HorizontalAlignment="Left" Margin="519,-6,0,0" VerticalAlignment="Top" Foreground="White" FontSize="48" FontFamily="Impact" BorderThickness="0"/>
         <Label Name="lbl_author" Content="by polluxik" HorizontalAlignment="Left" Margin="703,49,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0"/>
-        <Label Name="lbl_ver" Content="version-1.0" HorizontalAlignment="Left" Margin="519,49,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0"/>
-        <Label Name="lbl_pos" Content="X = ? | Y = ? | Z = ?" HorizontalAlignment="Left" Margin="519,84,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" FontFamily="Impact" BorderThickness="0" Width="265" Height="41" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Name="lbl_ver" Content="version-1.1" HorizontalAlignment="Left" Margin="519,49,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0"/>
+        <!--<Label Name="lbl_playercontrol" Content="Can move: " HorizontalAlignment="Left" Margin="10,329,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0" Width="71" Height="41" VerticalContentAlignment="Center" Padding="5,0,0,0" Background="#CC000000"/>
+        <Label Name="lbl_cm" Content="N/A" HorizontalAlignment="Left" Margin="81,329,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="16" FontFamily="Impact" BorderThickness="0" Width="153" Height="41" VerticalContentAlignment="Center" Padding="0" Background="#CC000000"/>
+        <Label Name="lbl_pos" Content="X = ? | Y = ? | Z = ?" HorizontalAlignment="Left" Margin="10,370,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0" Width="224" Height="41" VerticalContentAlignment="Center" RenderTransformOrigin="0.14,-0.561" Padding="5,0,0,0" Background="#CC000000"/>-->
+        <Label Name="lbl_status" Content="Status:" HorizontalAlignment="Left" Margin="10,370,0,0" VerticalAlignment="Top" Foreground="White" FontSize="16" FontFamily="Impact" BorderThickness="0" Width="54" Height="41" VerticalContentAlignment="Center" RenderTransformOrigin="0.14,-0.561" Padding="5,0,0,0" Background="#CC000000"/>
+        <Label Name="lbl_st" Content="" HorizontalAlignment="Left" Margin="64,370,0,0" VerticalAlignment="Top" Foreground="Green" FontSize="16" FontFamily="Impact" BorderThickness="0" Width="170" Height="41" VerticalContentAlignment="Center" Padding="0" Background="#CC000000"/>
 
 
     </Grid>
