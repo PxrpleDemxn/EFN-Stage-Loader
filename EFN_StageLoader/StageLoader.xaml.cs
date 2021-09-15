@@ -108,10 +108,17 @@ namespace EFN_StageLoader
                 }
                 lbl_st.Content = btn_st1.Content + " Loaded";
             }
-            else
+            else if(!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
             }
+            else if(!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
+            }
+
         }
 
         private void btn_st2_Click(object sender, RoutedEventArgs e)
@@ -128,9 +135,15 @@ namespace EFN_StageLoader
                 }
                 lbl_st.Content = btn_st2.Content + " Loaded";
             }
-            else
+            else if (!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
+            }
+            else if (!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
             }
         }
 
@@ -148,9 +161,15 @@ namespace EFN_StageLoader
                     lbl_st.Content = btn_st3.Content + " Loaded";
                 }
             }
-            else
+            else if (!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
+            }
+            else if (!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
             }
         }
 
@@ -168,9 +187,15 @@ namespace EFN_StageLoader
                 }
                 lbl_st.Content = btn_st4.Content + " Loaded";
             }
-            else
+            else if (!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
+            }
+            else if (!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
             }
         }
 
@@ -188,9 +213,15 @@ namespace EFN_StageLoader
                 }
                 lbl_st.Content = btn_st5.Content + " Loaded";
             }
-            else
+            else if (!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
+            }
+            else if (!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
             }
         }
 
@@ -208,9 +239,15 @@ namespace EFN_StageLoader
                     lbl_st.Content = btn_st6.Content + " Loaded";
                 }
             }
-            else
+            else if (!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
+            }
+            else if (!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
             }
         }
 
@@ -228,9 +265,15 @@ namespace EFN_StageLoader
                 }
                 lbl_st.Content = btn_st7.Content + " Loaded";
             }
-            else
+            else if (!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
+            }
+            else if (!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
             }
         }
 
@@ -248,9 +291,15 @@ namespace EFN_StageLoader
                 }
                 lbl_st.Content = btn_st8.Content + " Loaded";
             }
-            else
+            else if (!Directory.Exists(SavedGames))
             {
-                MessageBox.Show("Source path does not exist!");
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Press NEW GAME atleast once before you try to load a stage!\nStage loader needs to have base folder for game saves");
+            }
+            else if (!Directory.Exists(Stages))
+            {
+                lbl_st.Content = "ERROR";
+                MessageBox.Show("Stages path does not exist or they are invalid!\nTry to download/extract stage loader again.");
             }
         }
 
